@@ -26,15 +26,15 @@ jobs:
 
       # Restore dependencies for main project
       - name: Restore dependencies for CSAD_Labs2
-        run: dotnet restore CSAD_Labs2/CSAD_Labs2.csproj
+        run: dotnet restore Client/CSAD_Labs2/CSAD_Labs2.csproj
 
       # Build the main project
       - name: Build the CSAD_Labs2 project
-        run: dotnet build CSAD_Labs2/CSAD_Labs2.csproj --configuration Release
+        run: dotnet build Client/CSAD_Labs2/CSAD_Labs2.csproj --configuration Release
 
       # Run tests for the project
       - name: Run tests for CSAD_Labs2
-        run: dotnet test CSAD_Labs2.Tests/CSAD_Labs2.Tests.csproj --configuration Release --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test Client/CSAD_Labs2.Tests/CSAD_Labs2.Tests.csproj --configuration Release --logger "trx;LogFileName=test-results.trx"
 
   arduino:
     runs-on: ubuntu-latest  # Using the latest version of Ubuntu for CI
