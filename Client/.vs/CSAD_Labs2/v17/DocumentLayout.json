@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70778C43-1491-471B-AD99-C717EDB42F1C}|CSAD_Labs2.Tests\\CSAD_Labs2.Tests.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\csad_labs2.tests\\serialcommunicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70778C43-1491-471B-AD99-C717EDB42F1C}|CSAD_Labs2.Tests\\CSAD_Labs2.Tests.csproj|solutionrelative:csad_labs2.tests\\serialcommunicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70778C43-1491-471B-AD99-C717EDB42F1C}|CSAD_Labs2.Tests\\CSAD_Labs2.Tests.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\csad_labs2.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70778C43-1491-471B-AD99-C717EDB42F1C}|CSAD_Labs2.Tests\\CSAD_Labs2.Tests.csproj|solutionrelative:csad_labs2.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\csad_labs2\\serialportwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|solutionrelative:csad_labs2\\serialportwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\csad_labs2\\serialcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|solutionrelative:csad_labs2\\serialcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\csad_labs2\\iserialport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|solutionrelative:csad_labs2\\iserialport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\csad_labs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B120F1-7B80-4FEA-9E0C-03EC0DBC6C3E}|CSAD_Labs2\\CSAD_Labs2.csproj|solutionrelative:csad_labs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SerialCommunicationTests.cs",
+              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2.Tests\\SerialCommunicationTests.cs",
+              "RelativeDocumentMoniker": "CSAD_Labs2.Tests\\SerialCommunicationTests.cs",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2.Tests\\SerialCommunicationTests.cs",
+              "RelativeToolTip": "CSAD_Labs2.Tests\\SerialCommunicationTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:14:23.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerialCommunication.cs",
+              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\SerialCommunication.cs",
+              "RelativeDocumentMoniker": "CSAD_Labs2\\SerialCommunication.cs",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\SerialCommunication.cs",
+              "RelativeToolTip": "CSAD_Labs2\\SerialCommunication.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:18:02.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SerialPortWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\SerialPortWrapper.cs",
+              "RelativeDocumentMoniker": "CSAD_Labs2\\SerialPortWrapper.cs",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\SerialPortWrapper.cs",
+              "RelativeToolTip": "CSAD_Labs2\\SerialPortWrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:42:05.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CSAD_Labs2.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "CSAD_Labs2.Tests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:11:48.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISerialPort.cs",
+              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\ISerialPort.cs",
+              "RelativeDocumentMoniker": "CSAD_Labs2\\ISerialPort.cs",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\ISerialPort.cs",
+              "RelativeToolTip": "CSAD_Labs2\\ISerialPort.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:40:50.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\Program.cs",
+              "RelativeDocumentMoniker": "CSAD_Labs2\\Program.cs",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\CSAD_Labs2\\Program.cs",
+              "RelativeToolTip": "CSAD_Labs2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:26:41.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
