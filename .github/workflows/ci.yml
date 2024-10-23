@@ -13,20 +13,19 @@ jobs:
   build:
     runs-on: windows-latest  # Використовуємо Windows
 
-    steps:
+     steps:
       # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Set up .NET Framework 4.7.2
-      - name: Set up .NET Framework 4.7.2
-        run: |
-          # Restore dependencies for the Client project
-          dotnet restore Client/Client/Client/Client.csproj
+      # Restore dependencies for the Client project
+      - name: Restore dependencies
+        run: nuget restore Client/Client/Client/Client.csproj
 
-      # Build the main project in Debug configuration
-      - name: Build the CSAD_Labs2 project
-        run: dotnet build Client/Client/Client/Client.csproj --configuration Debug --framework net472
+      # Build the Client project
+      - name: Build the Client project
+        run: |
+          "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" Client/Client/Client/Client.csproj /p:Configuration=Release
 
   arduino:
     runs-on: ubuntu-latest  # Використовуємо останню версію Ubuntu для CI
