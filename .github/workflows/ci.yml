@@ -25,7 +25,7 @@ jobs:
       # Build the Client project
       - name: Build the Client project
         run: |
-          "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" Client/Client/Client/Client.csproj /p:Configuration=Release
+         "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" Client/Client/Client/Client.csproj /p:Configuration=Release
 
   arduino:
     runs-on: ubuntu-latest  # Використовуємо останню версію Ubuntu для CI
