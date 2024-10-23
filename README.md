@@ -10,5 +10,5 @@ The task is to develop a primitive game, the Server part should execute on Hardw
 - Config format : XML
 
 ## Technology and Program Language
-- Programming Language: С++/C#/Java
-- Hardware: I still don't know which HW I will use. Arduino Uno/STM32/CY8CKIT-042 PSoC® 4 Pioneer Kit 
+- Programming Language: C#
+- Hardware: Arduino Uno

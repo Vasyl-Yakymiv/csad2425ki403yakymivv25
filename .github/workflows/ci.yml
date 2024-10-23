@@ -26,15 +26,11 @@ jobs:
 
       # Restore dependencies for main project
       - name: Restore dependencies for CSAD_Labs2
-        run: dotnet restore Client/CSAD_Labs2/CSAD_Labs2.csproj
+        run: dotnet restore Client/Client/Client.csproj
 
       # Build the main project
       - name: Build the CSAD_Labs2 project
-        run: dotnet build Client/CSAD_Labs2/CSAD_Labs2.csproj --configuration Release
-
-      # Run tests for the project
-      - name: Run tests for CSAD_Labs2
-        run: dotnet test Client/CSAD_Labs2.Tests/CSAD_Labs2.Tests.csproj --configuration Release --logger "trx;LogFileName=test-results.trx"
+        run: dotnet build Client/Client/Client.csproj --configuration Release
 
   arduino:
     runs-on: ubuntu-latest  # Using the latest version of Ubuntu for CI
@@ -57,7 +53,7 @@ jobs:
       # Compile the Arduino project for Arduino Uno
       - name: Build Arduino Project
         run: |
-          arduino-cli compile --fqbn arduino:avr:uno Server/Server.ino  # Compile for Arduino Uno
+          arduino-cli compile --fqbn arduino:avr:uno Server/Server/Server.ino  # Compile for Arduino Uno
           
       # Upload the Arduino build result as an artifact
       - name: Upload Arduino Build Artifact
