@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - develop
-      - feature/develop/task2
       - feature/develop/task3
   pull_request:
     branches:
@@ -23,9 +22,9 @@ jobs:
       - name: Restore dependencies for Client
         run: dotnet restore Client/Client/Client/Client.csproj
 
-      # Build the main project with specific framework
-      - name: Build the Client
-        run: dotnet build Client/Client/Client/Client.csproj --configuration Release --framework net472
+      # Build the Client with MSBuild in Debug mode
+      - name: Build the Client with MSBuild in Debug mode
+        run: msbuild Client/Client/Client/Client.csproj /p:Configuration=Debug /p:Platform="x86"
 
   arduino:
     runs-on: ubuntu-latest  # Використовуємо останню версію Ubuntu для CI

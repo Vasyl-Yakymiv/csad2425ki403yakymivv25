@@ -3,18 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Client||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C675997-B56A-4531-9F2E-935B35C9C60D}|Client\\Client.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\client\\client\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C675997-B56A-4531-9F2E-935B35C9C60D}|Client\\Client.csproj|C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\client\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C675997-B56A-4531-9F2E-935B35C9C60D}|Client\\Client.csproj|solutionrelative:client\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C675997-B56A-4531-9F2E-935B35C9C60D}|Client\\Client.csproj|C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\client\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C675997-B56A-4531-9F2E-935B35C9C60D}|Client\\Client.csproj|solutionrelative:client\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C675997-B56A-4531-9F2E-935B35C9C60D}|Client\\Client.csproj|c:\\users\\kynguat\\csadlabs\\csad2425ki403yakymivv25\\client\\client\\client\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,41 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Client",
-              "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Client.csproj",
-              "RelativeDocumentMoniker": "Client\\Client.csproj",
-              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Client.csproj",
-              "RelativeToolTip": "Client\\Client.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-23T15:41:03.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form3.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Form3.cs",
               "RelativeDocumentMoniker": "Client\\Form3.cs",
-              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Form3.cs [Design]",
-              "RelativeToolTip": "Client\\Form3.cs [Design]",
+              "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Client\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T11:13:33.502Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Form3.cs",
               "RelativeDocumentMoniker": "Client\\Form3.cs",
               "ToolTip": "C:\\Users\\KynguaT\\csadlabs\\csad2425ki403yakymivv25\\Client\\Client\\Client\\Form3.cs",
               "RelativeToolTip": "Client\\Form3.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAACwAAAAkAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAACwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T11:13:35.605Z",
               "EditorCaption": ""
