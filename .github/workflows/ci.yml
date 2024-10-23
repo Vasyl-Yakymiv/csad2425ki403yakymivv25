@@ -18,13 +18,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Restore dependencies for main project
-      - name: Restore dependencies for Client
-        run: dotnet restore Client/Client/Client/Client.csproj
+      # Set up .NET Framework 4.7.2
+      - name: Set up .NET Framework 4.7.2
+        run: |
+          # Restore dependencies for the Client project
+          dotnet restore Client/Client/Client/Client.csproj
 
-      # Build the Client with MSBuild in Debug mode
-      - name: Build the Client with MSBuild in Debug mode
-        run: msbuild Client/Client/Client/Client.csproj /p:Configuration=Debug /p:Platform="x86"
+      # Build the main project in Debug configuration
+      - name: Build the CSAD_Labs2 project
+        run: dotnet build Client/Client/Client/Client.csproj --configuration Debug --framework net472
 
   arduino:
     runs-on: ubuntu-latest  # Використовуємо останню версію Ubuntu для CI
