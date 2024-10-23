@@ -32,6 +32,7 @@ jobs:
       - name: Build the Client
         run: dotnet build Client/Client/Client.csproj --configuration Release
 
+
   arduino:
     runs-on: ubuntu-latest  # Using the latest version of Ubuntu for CI
 
