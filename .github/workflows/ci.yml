@@ -5,6 +5,7 @@ on:
     branches:
       - develop
       - feature/develop/task2
+      - feature/develop/task3
   pull_request:
     branches:
       - develop
