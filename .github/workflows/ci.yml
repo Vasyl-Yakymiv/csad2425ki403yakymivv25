@@ -27,11 +27,11 @@ jobs:
 
       # Restore dependencies for main project
       - name: Restore dependencies for Client
-        run: dotnet restore Client/Client/Client.csproj
+        run: dotnet restore Client/Client/Client/Client.csproj
 
       # Build the main project
       - name: Build the Client
-        run: dotnet build Client/Client/Client.csproj --configuration Release
+        run: dotnet build Client/Client/Client/Client.csproj --configuration Release
 
 
   arduino:
