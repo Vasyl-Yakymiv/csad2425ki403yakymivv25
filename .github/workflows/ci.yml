@@ -19,11 +19,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Set up .NET SDK
-      - name: Set up .NET 8
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.x'
+       # Set up .NET Framework 4.7.2
+      - name: Install .NET Framework 4.7.2
+        run: |
+          choco install netfx-4.7.2-devpack
 
       # Restore dependencies for main project
       - name: Restore dependencies for Client
