@@ -5,7 +5,6 @@ on:
     branches:
       - develop
       - feature/develop/task2
-      - feature/develop/task3
   pull_request:
     branches:
       - develop
@@ -26,11 +25,11 @@ jobs:
           dotnet-version: '8.x'
 
       # Restore dependencies for main project
-      - name: Restore dependencies for CSAD_Labs2
+      - name: Restore dependencies for Client
         run: dotnet restore Client/Client/Client.csproj
 
       # Build the main project
-      - name: Build the CSAD_Labs2 project
+      - name: Build the Client
         run: dotnet build Client/Client/Client.csproj --configuration Release
 
   arduino:
