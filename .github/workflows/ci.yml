@@ -12,29 +12,23 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Використовуємо Windows
 
     steps:
       # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-       # Set up .NET Framework 4.7.2
-      - name: Install .NET Framework 4.7.2
-        run: |
-          choco install netfx-4.7.2-devpack
-
       # Restore dependencies for main project
       - name: Restore dependencies for Client
         run: dotnet restore Client/Client/Client/Client.csproj
 
-      # Build the main project
+      # Build the main project with specific framework
       - name: Build the Client
-        run: dotnet build Client/Client/Client/Client.csproj --configuration Release
-
+        run: dotnet build Client/Client/Client/Client.csproj --configuration Release --framework net472
 
   arduino:
-    runs-on: ubuntu-latest  # Using the latest version of Ubuntu for CI
+    runs-on: ubuntu-latest  # Використовуємо останню версію Ubuntu для CI
 
     steps:
       # Checkout the repository to get Arduino code
@@ -45,20 +39,20 @@ jobs:
       - name: Set up Arduino CLI
         uses: arduino/setup-arduino-cli@v1
         with:
-          version: '0.19.2'  # Specify the version of Arduino CLI
+          version: '0.19.2'  # Вказуємо версію Arduino CLI
 
       # Install the Arduino platform for AVR (e.g., Arduino Uno)
       - name: Install Arduino AVR platform
-        run: arduino-cli core install arduino:avr  # Install the AVR core
+        run: arduino-cli core install arduino:avr  # Встановлюємо AVR core
 
       # Compile the Arduino project for Arduino Uno
       - name: Build Arduino Project
         run: |
-          arduino-cli compile --fqbn arduino:avr:uno Server/Server/Server.ino  # Compile for Arduino Uno
+          arduino-cli compile --fqbn arduino:avr:uno Server/Server/Server.ino  # Компілюємо для Arduino Uno
           
       # Upload the Arduino build result as an artifact
       - name: Upload Arduino Build Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: arduino-build  # Name of the Arduino artifact
-          path: build/*  # Path to the Arduino compilation results
+          name: arduino-build  # Назва артефакту Arduino
+          path: build/*  # Шлях до результатів компіляції Arduino
