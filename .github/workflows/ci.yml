@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest  # Використовуємо Windows
+    runs-on: ubuntu-latest  
 
      steps:
       # Checkout the repository
