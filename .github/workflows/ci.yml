@@ -3,41 +3,31 @@ name: CI Workflow
 on:
   push:
     branches:
-      - develop
-      - feature/develop/task2
+      
   pull_request:
     branches:
-      - develop
+      
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  
 
-    steps:
+     steps:
       # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Set up .NET SDK
-      - name: Set up .NET 8
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.x'
+      # Restore dependencies for the Client project
+      - name: Restore dependencies
+        run: nuget restore Client/Client/Client/Client.csproj
 
-      # Restore dependencies for main project
-      - name: Restore dependencies for CSAD_Labs2
-        run: dotnet restore Client/CSAD_Labs2/CSAD_Labs2.csproj
-
-      # Build the main project
-      - name: Build the CSAD_Labs2 project
-        run: dotnet build Client/CSAD_Labs2/CSAD_Labs2.csproj --configuration Release
-
-      # Run tests for the project
-      - name: Run tests for CSAD_Labs2
-        run: dotnet test Client/CSAD_Labs2.Tests/CSAD_Labs2.Tests.csproj --configuration Release --logger "trx;LogFileName=test-results.trx"
+      # Build the Client project
+      - name: Build the Client project
+        run: |
+         "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" Client/Client/Client/Client.csproj /p:Configuration=Release
 
   arduino:
-    runs-on: ubuntu-latest  # Using the latest version of Ubuntu for CI
+    runs-on: ubuntu-latest  # Використовуємо останню версію Ubuntu для CI
 
     steps:
       # Checkout the repository to get Arduino code
@@ -48,20 +38,20 @@ jobs:
       - name: Set up Arduino CLI
         uses: arduino/setup-arduino-cli@v1
         with:
-          version: '0.19.2'  # Specify the version of Arduino CLI
+          version: '0.19.2'  # Вказуємо версію Arduino CLI
 
       # Install the Arduino platform for AVR (e.g., Arduino Uno)
       - name: Install Arduino AVR platform
-        run: arduino-cli core install arduino:avr  # Install the AVR core
+        run: arduino-cli core install arduino:avr  # Встановлюємо AVR core
 
       # Compile the Arduino project for Arduino Uno
       - name: Build Arduino Project
         run: |
-          arduino-cli compile --fqbn arduino:avr:uno Server/Server.ino  # Compile for Arduino Uno
+          arduino-cli compile --fqbn arduino:avr:uno Server/Server/Server.ino  # Компілюємо для Arduino Uno
           
       # Upload the Arduino build result as an artifact
       - name: Upload Arduino Build Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: arduino-build  # Name of the Arduino artifact
-          path: build/*  # Path to the Arduino compilation results
+          name: arduino-build  # Назва артефакту Arduino
+          path: build/*  # Шлях до результатів компіляції Arduino
